@@ -8,7 +8,7 @@ class SLL
         public:
         int data;
         SLL_Node *next;
-        SLL_Node(int data = 0; SLL_Node *next = NULL)
+        SLL_Node(int data = 0, SLL_Node *next = NULL)
         {
             this->data = data;
             this->next = next;
