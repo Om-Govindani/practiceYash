@@ -22,6 +22,16 @@ class SLL
         this->root = NULL;
         this->count = 0;
     }
+    void push_back(int data)
+    {}
+    void push_front(int data)
+    {}
+    void pop_back()
+    {}
+    void pop_front()
+    {}
+    void insertByIndex(int data, int index)
+    {}
 };
 
 int main()
